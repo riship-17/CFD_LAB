@@ -10,9 +10,13 @@
 
 ---
 
-This repository brings together six computational experiments completed as part of the **Computational Fluid Dynamics (CFD) course**. The work focuses on translating governing equations into numerical methods, implementing the solvers, and interpreting the resulting flow and thermal fields.
+> ### Source and attribution
+>
+> This repository is a derivative of **[Ayush181005/CFD-Lab](https://github.com/Ayush181005/CFD-Lab)** by **Ayush Singh**, used under the MIT License (see [LICENSE](LICENSE)).
+>
+> The solvers, governing-equation derivations, numerical formulations, and the original result figures in this repository are **Ayush Singh's work**. This copy exists to run the same solvers at different operating points; changes made here are limited to simulation parameters and the regenerated figures that follow from them.
 
-The implementations were developed primarily independently, with governing equations and discretizations worked through by hand before coding. **AI assistance was minimal**; the emphasis throughout was on understanding the underlying physics, numerical formulation, implementation, and verification.
+This repository brings together six computational experiments from a **Computational Fluid Dynamics (CFD) course**. The work focuses on translating governing equations into numerical methods, implementing the solvers, and interpreting the resulting flow and thermal fields.
 
 ## Experiments at a glance
 
@@ -142,6 +146,7 @@ These are educational numerical models. Their assumptions and limitations are do
 
 <div align="center">
 
-**Ayush Singh** · Mechanical Engineering · PDEU
+Original work by **Ayush Singh** · Mechanical Engineering · PDEU  
+[Ayush181005/CFD-Lab](https://github.com/Ayush181005/CFD-Lab) · MIT License
 
 </div>
