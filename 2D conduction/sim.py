@@ -33,7 +33,7 @@ import numpy as np
 from matplotlib import cm, pyplot as plt
 
 L = 1
-nx = 150
+nx = 120
 dx = L/nx
 Fo = 0.25
 # alpha = 1
@@ -41,7 +41,7 @@ Fo = 0.25
 nit = 1000000
 
 def apply_boundary(T):
-    T[-1, :] = 80
+    T[-1, :] = 90
     T[:, 0] = 0
     T[:, -1] = 0
     T[0, :] = T[1, :]

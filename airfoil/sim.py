@@ -27,7 +27,7 @@ dt = Co * min(dx, dy) / u_inlet
 eta = 0.1*dt           # nondimensional penalty parameter
 alpha_p = 1.0          # time-marching: take the full pressure correction
 tol_cl = 1e-6          # steady state: Cl change over 500 steps below this
-aoa_list = [0, 4, 8, 12]      # angles of attack in degrees
+aoa_list = [4, 8]      # angles of attack in degrees
 
 def apply_boundary(u, v, p):
     # left (inlet)

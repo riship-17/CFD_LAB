@@ -33,10 +33,10 @@ dy_cold = Dy_cold/(ny_cold-1)
 # Flow and Heat properties
 # Water fluid and copper solid
 k_f = 0.6 # thermal conductivity of water [W/mK]
-k_s = 237 # thermal conductivity of aluminium [W/mK]
+k_s = 385 # thermal conductivity of copper [W/mK]
 Pr = 7.0 # Approximate Prandtl number for water
-Re_hot = 50 # Reynolds number of hot fluid
-Re_cold = 50 # Reynolds number of cold fluid
+Re_hot = 20 # Reynolds number of hot fluid
+Re_cold = 20 # Reynolds number of cold fluid
 T_hot_in = 5.0 # non-dimensional hot fluid inlet temperature
 T_cold_in = -5.0 # non-dimensional cold fluid inlet temperature
 dp_cold = 1.0 # pressure drop in cold channel

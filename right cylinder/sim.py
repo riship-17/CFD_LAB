@@ -24,7 +24,7 @@ Cy = Ly/2
 Cr = 0.5*D             # radius = D/2
 nit = 50000
 Co = 0.1
-Re = 150
+Re = 120
 u_inlet = 1            # U, nondimensional
 dt = Co * min(dx, dy) / u_inlet     # 0.0125 (in units of D/U)
 eta = max(0.5 * dt, 1e-5)           # nondimensional penalty parameter
@@ -150,7 +150,7 @@ if np.max(np.abs(cl)) > 1e-3:               # only if Cl actually oscillates
     amp = np.abs(np.fft.rfft(cl, n=npad))
     f = freq[np.argmax(amp[1:]) + 1]        # skip the zero-frequency bin
     St = f*D/u_inlet
-    print(f"Shedding frequency f = {f:.4f}, St = {St:.4f}  (literature ~0.183 at Re = 150)")
+    print(f"Shedding frequency f = {f:.4f}, St = {St:.4f}  (literature ~0.173 at Re = 120)")
 
     plt.figure(figsize=(6, 3))
     plt.plot(freq, amp)
